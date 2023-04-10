@@ -131,15 +131,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arduino.h" />
-    <ClInclude Include="AVR_pgmspace.h" />
-    <ClInclude Include="binary.h" />
-    <ClInclude Include="interrupt.h" />
-    <ClInclude Include="io.h" />
-    <ClInclude Include="AVR_sfr_defs.h" />
     <ClInclude Include="LCD.h" />
     <ClInclude Include="mq2.h" />
-    <ClInclude Include="Until_delay.h" />
-    <ClInclude Include="Until_delay_basic.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />

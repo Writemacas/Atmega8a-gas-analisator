@@ -1,10 +1,11 @@
 #define F_CPU 8000000UL/*определение тактовой частоты микроконтроллера 
 для корректной работы функций задержки*/
-#include <io.h>
-#include <Util_delay.h>
+#include <avr/io.h>
+#include <util/delay.h>
 #include <string.h>
 #include "LCD.h"
 #include "mq2.h"
+
 
 int main(void) {
 	DDRD = 0x00;

@@ -1,15 +1,16 @@
 #pragma once
 //Используется вспомогательная библиотека Arduino для преобразования данных с датчика MQ-2
-#ifndef Arduino_H
-#define Arduino_H
+#ifndef Arduino_h
+#define Arduino_h
 #include <stdlib.h>
 #include <stdbool.h>
 #include <string.h>
 #include <math.h>
-#include <AVR_pgmspace.h>
-#include <io.h>
-#include <interrupt.h>
+#include <avr/pgmspace.h>
+#include <avr/io.h>
+#include <avr/interrupt.h>
 #include "binary.h"
+
 
 #ifdef __cplusplus
 extern "C" {
